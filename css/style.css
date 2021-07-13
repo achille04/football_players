@@ -1,6 +1,7 @@
 /*------------------------- 
         Common_CSS
 --------------------------*/
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
@@ -16,7 +17,7 @@ h1{
     margin-bottom: 27px;
 }
 main{
-    padding: 70px 180px ;
+    padding: 0 180px 70px;
 }
 
 
@@ -58,11 +59,19 @@ a{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    
 }
+
+.player{
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 40px #80808094;
+    
+}
+
 .player img{
     width: 300px;
-    border: 15px;
-    
+
     
 }
 
