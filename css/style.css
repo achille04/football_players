@@ -15,6 +15,7 @@ h1{
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 27px;
+    line-height: 80px;
 }
 main{
     padding: 0 180px 70px;
@@ -29,10 +30,11 @@ main{
     display: flex;
     background-color: #0000ff;
     margin-bottom: 70px;
+    align-items: center;
 }
 .conmebol_left_area{
     width: 50%;
-    padding: 50px 27px 0px 50px;
+    padding: 0 27px 0px 50px;
     margin-left: 50px;
 }
 
@@ -48,11 +50,13 @@ a{
     
 }
 
+
 a:hover{
     
         padding: 14px 28px;
         transition: 1s;
-        background-color: #0b9db1;
+        background-color: #e25959;
+        color: #000000;
       
 }
 
@@ -97,7 +101,7 @@ a:hover{
 }
 
 /*------------------------------------- 
-    Fantasy_Premier_League_Area
+    English_Premier_League_Area
 ---------------------------------------*/
 .e_p_l{
     padding: 0 180px 20px;
@@ -107,10 +111,12 @@ a:hover{
     color: black;
     font-size: 48px;
     font-weight: 700;
+    line-height: 60px;
 }
 .e_p_l_left p{
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding-right: 40px;
     
 }
 .e_p_l_right{
@@ -121,7 +127,57 @@ a:hover{
 /*------------------------- 
     Sign_Up_Area_CSS
 --------------------------*/
-
+.sign_up{
+    margin: 20px 0 50px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(#04069cef, #23218d9f);
+    background-size:cover ;
+}
+h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin:20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;
+    background:transparent ;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #2808df7e;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+}
+button:hover{
+    background-color: #a3c8ca94;
+    cursor: pointer;
+    transition: 2s;
+    color: #000000;
+    border: 2px solid #a3c8ca94;
+}
+::placeholder{
+    color: #c0c0c0;
+}
 
 
 /*------------------------- 
