@@ -35,6 +35,29 @@ main{
     padding: 50px 27px 0px 50px;
     margin-left: 50px;
 }
+
+.btn-color{
+    transition: all 0.5s;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px 24px 10px;
+    background: #E02C6D;
+    
+}
+
+a:hover{
+    
+        padding: 14px 28px;
+        transition: 1s;
+        background-color: #0b9db1;
+      
+}
+
+
+
 .conmebol_right_area{
     width: 50%;
     padding: 5%;
@@ -43,18 +66,18 @@ main{
 .conmebol_right_area img{
     height: 438px;
     width: 556px;
+    cursor: pointer;
 }
-a{
-    color: #ffffff;
-    text-decoration: none;
-    padding:10px 24px 10px 24px;
-    background: #E02C6D;
-    
+.conmebol_right_area img:hover{
+    padding: 8px;
+        transition: 1s;
 }
 
 /*------------------------- 
-    Players_Area_CSS
+    Main_Area_CSS
 --------------------------*/
+
+/*---- Players_Area_CSS ----*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -70,12 +93,12 @@ a{
 }
 
 .player img{
-    width: 300px;
-
-    
+    width: 300px;  
 }
 
-
+/*------------------------------------- 
+    Fantasy_Premier_League_Area
+---------------------------------------*/
 
 
 
@@ -93,14 +116,14 @@ a{
 }
 
 .social_media{
-    padding-left: 560px;
+    padding-left: 590px;
 }
 
 
 
 .copyright{
     align-content: center;
-    padding-left: 550px;
+    padding-left: 600px;
 }
 .social_media_color{
     margin-left: 14px;
@@ -108,4 +131,23 @@ a{
     color: gray;
     background-color: #e8e7e7;
     border-radius: 60%;
+}
+.social_media_color:hover{
+    padding: 8px 12px;
+    color: #0105d6;
+    background-color: #e8e7e7;
+    border-radius: 60%;
+    transition: 1s;
+}
+.social_media_color:hover .fa-instagram{
+    color: #b201d6;
+}
+.social_media_color:hover .fa-twitter{
+    color: #00acee;
+}
+.social_media_color:hover .fa-whatsapp{
+   color: #25d366;
+}
+.social_media_color:hover .fa-snapchat{
+   color: #fffb00;
 }
