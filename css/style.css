@@ -99,7 +99,28 @@ a:hover{
 /*------------------------------------- 
     Fantasy_Premier_League_Area
 ---------------------------------------*/
+.e_p_l{
+    padding: 0 180px 20px;
+    display: flex;
+}
+.e_p_l_left h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.e_p_l_left p{
+    color: black;
+    margin-bottom: 20px;
+    
+}
+.e_p_l_right{
+    width: 50%;
+    margin-top: 45px;
+}
 
+/*------------------------- 
+    Sign_Up_Area_CSS
+--------------------------*/
 
 
 
