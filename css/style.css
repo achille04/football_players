@@ -6,7 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
 }
-#container{
+.container{
     width: 100%;
     
 }
@@ -234,15 +234,15 @@ button:hover{
     Media_Quaries_CSS
 --------------------------*/
 
-/* Mobile_Devices */
+/*----------- Mobile_Devices ----------*/
 @media only screen and (max-width: 688px) {
 
-    /* Header_Area */
+    /*------------------- Header_Area -----------------*/
+
+   
 
 
-    .container{
-        margin: 0 0px;
-    }
+  
 
     h1{
         font-size: 36px;
@@ -259,6 +259,7 @@ button:hover{
         flex-direction: column;
         padding: 0 30px; 
         align-items: center;
+        width: 100%;
 
     }
      .conmebol_left_area{
@@ -272,33 +273,23 @@ button:hover{
 
     }
 
-    /* Players_Area */
+    /*------------- Main_Area ---------------*/
 
     .players{
         grid-template-columns: repeat(1,1fr);
     }
     main{
-        padding: 20px ;
-    }
-    .sign_up{
-        padding: 10px 50px;
-        height: 85vh;
+        padding: 0 20px ;
     }
 
-    form {
-        margin-top: 10px;
-    }
 
-    /* .sign_up{
-        margin: 20px 0 50px;
-        padding: 0;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background: linear-gradient(#04069cef, #23218d9f);
-        background-size:cover ;
-    } */
+
+
+    /*----------- English_Premier_League_Area  ----------*/
+
+
+
+
 
     .e_p_l{
         padding: 0 10px;
@@ -335,6 +326,25 @@ button:hover{
     }
 
 
+
+    /*-------- Sign_UP_Form_Area ----------*/
+
+
+
+    .sign_up{
+        padding: 10px 50px;
+        height: 80vh;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+
+
+    /*------- Footer_Area --------*/
+
+
     .logo img{
         width: 80%;
     }
@@ -349,14 +359,8 @@ button:hover{
         padding-left: 80px;
     }
 
-
-
-
-
-
 }
 
-    /* English_Premier_League_Area */
 
     
     
