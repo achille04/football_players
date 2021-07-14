@@ -38,7 +38,7 @@ main{
     margin-left: 50px;
 }
 
-.btn-color{
+.button{
     transition: all 0.5s;
 }
 
@@ -55,7 +55,7 @@ a:hover{
     
         padding: 14px 28px;
         transition: 1s;
-        background-color: #e25959;
+        background-color: #7781dbc5;
         color: #000000;
       
 }
@@ -74,7 +74,7 @@ a:hover{
 }
 .conmebol_right_area img:hover{
     padding: 8px;
-        transition: 1s;
+    transition: 1s;
 }
 
 /*------------------------- 
@@ -183,6 +183,7 @@ button:hover{
 /*------------------------- 
     Footer_Area_CSS
 --------------------------*/
+
 .footer_area img{
 
     padding-left: 400px;
@@ -228,3 +229,119 @@ button:hover{
 .social_media_color:hover .fa-snapchat{
    color: #fffb00;
 }
+
+/*------------------------- 
+    Media_Quaries_CSS
+--------------------------*/
+
+/* Mobile_Devices */
+@media only screen and (max-width: 688px) {
+
+    /* Header_Area */
+
+
+    .container{
+        margin: 0 0px;
+    }
+    
+    h1{
+        font-size: 36px;
+        line-height: 38px;
+        margin: 0;
+        padding: 8px 0;
+    }
+    a{
+        font-size: 12px;
+        padding: 4px;
+    }
+     .conmebol{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px; 
+        align-items: center;
+
+    }
+     .conmebol_left_area{
+        padding: 6px 200px 0 0; 
+    } 
+    .conmebol_right_area img{
+        width: 329px;
+        height: auto;
+        margin: 0 0 0 -75px;
+        
+
+    }
+
+    /* Players_Area */
+
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    main{
+        padding: 20px ;
+    }
+    .sign_up{
+        padding: 10px 50px;
+    }
+
+
+    .e_p_l{
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .e_p_l_left{
+    padding:0 16px; 
+    }
+    .e_p_l_left a{
+    font-size: 16px;
+    font-weight: 500px; 
+    padding: 10px 24px;
+    }
+    .e_p_l_left h1{
+        color: black;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 32px;
+        align-items: center;
+    }
+    .e_p_l_left p{
+        color: black;
+    }
+
+    
+
+    .e_p_l_right img{
+        width: 328px;
+        height: 100%;
+        padding: 0 6px;
+    }
+
+
+    .logo img{
+        width: 80%;
+    }
+
+    .footer_area img{
+        padding-left: 12px;
+    }
+    .social_media{
+        padding-left: 80px;
+    }
+    .copyright{
+        padding-left: 80px;
+    }
+
+
+
+
+
+
+}
+
+    /* English_Premier_League_Area */
+
+    
+    
