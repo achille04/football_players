@@ -235,11 +235,15 @@ button:hover{
 --------------------------*/
 
 /*----------- Mobile_Devices ----------*/
+
+
 @media only screen and (max-width: 688px) {
 
     /*------------------- Header_Area -----------------*/
 
-   
+   .container{
+       margin: 0 auto;
+   }
 
 
   
@@ -266,7 +270,7 @@ button:hover{
         padding: 6px 200px 0 0; 
     } 
     .conmebol_right_area img{
-        width: 329px;
+        width: 334px;
         height: auto;
         margin: 10px 0 0 -75px;
         
@@ -332,7 +336,7 @@ button:hover{
 
 
     .sign_up{
-        padding: 10px 50px;
+        padding: 10px 0px;
         height: 80vh;
     }
 
