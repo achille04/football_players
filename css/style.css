@@ -104,7 +104,6 @@ a:hover{
     English_Premier_League_Area
 ---------------------------------------*/
 .e_p_l{
-    padding: 0 180px 20px;
     display: flex;
 }
 .e_p_l_left h1{
@@ -244,6 +243,9 @@ button:hover{
    .container{
        margin: 0 auto;
    }
+   html{
+       width: 100%;
+   }
 
 
   
@@ -260,19 +262,19 @@ button:hover{
     }
      .conmebol{
         display: flex;
-        flex-direction: column;
-        padding: 0 30px; 
+        flex-direction: column; 
         align-items: center;
         width: 100%;
+        padding: 0 0;
 
     }
      .conmebol_left_area{
-        padding: 6px 200px 0 0; 
+        padding: 6px 116px 0 0; 
     } 
     .conmebol_right_area img{
         width: 334px;
         height: auto;
-        margin: 10px 0 0 -75px;
+        margin: 10px 0 0 -60px;
         
 
     }
@@ -285,6 +287,9 @@ button:hover{
     main{
         padding: 0 20px ;
     }
+    .player{
+        padding: 20px;
+    }
 
 
 
@@ -296,7 +301,6 @@ button:hover{
 
 
     .e_p_l{
-        padding: 0 10px;
         display: flex;
         flex-direction: column;
     }
@@ -344,6 +348,7 @@ button:hover{
         margin-top: 10px;
     }
 
+    input{margin: 10px;}
 
 
     /*------- Footer_Area --------*/
