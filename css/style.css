@@ -208,6 +208,7 @@ button:hover{
     color: gray;
     background-color: #e8e7e7;
     border-radius: 60%;
+    cursor: pointer;
 }
 .social_media_color:hover{
     padding: 8px 12px;
